@@ -1,1 +1,0 @@
-alert("its works bitches"),document.querySelector("h1").addEventListener("click",function(){console.log("hello")});
