@@ -87,6 +87,18 @@
         p{
             font-family: 'Arimo', sans-serif;
             color:#777;
+            padding-bottom: 20px;
+        }
+        .btn{
+            background: #f88c91;
+            box-shadow: 0px 0px 0px 6px #f88c91; 
+            border: 1px solid white;
+            padding: 6px 20px;
+            font-size: 19px;
+            display: inline-block;
+            color: #fff;
+            text-decoration: none;
+            font-family: 'Arimo',sans-serif;
         }
     }
 }
