@@ -1,10 +1,9 @@
-
+/*----- Global -----*/
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-
 
 
 .container {
@@ -13,6 +12,19 @@
     height: 100%;
 }
 
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px;
+}
+ .title{
+    font-family: "Merienda One", cursive;
+    font-size: 45px;
+    color: #222;
+    }
+
 #hero header {
     background: blue;
 }
@@ -20,7 +32,6 @@
 #hero img {
     width: 50px;
 }
-
 
 
 #hero  #navbar { 
@@ -45,7 +56,37 @@
     font-weight: 300;
     transition: all .2s ease-in-out;
     font-size: 0.8rem;
-    color: black;
+    color: #222;
 
  }
 
+/*----- About Us -----*/
+
+#about-section {
+    padding: 50px 0;
+
+    .about-left{
+        margin-bottom: 30px;
+        img{
+            max-width: 100%;
+            height: auto;
+        }
+
+    }
+    .about-right{
+        h3{
+            font-size: 25px;
+            font-family: 'Poppins',sans-serif;
+            font-weight: 700;
+            padding-bottom: 10px;
+        }
+        img{
+            padding-bottom: 10px;
+        }
+
+        p{
+            font-family: 'Arimo', sans-serif;
+            color:#777;
+        }
+    }
+}
