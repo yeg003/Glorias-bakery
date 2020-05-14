@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 *{padding:0;margin:0;box-sizing:border-box}
+=======
+*{padding:0;margin:0;box-sizing:border-box}.container{max-width:1170px;margin:0 auto;height:100%}#hero header{background:blue}#hero img{width:50px}#hero #navbar{width:100%}#hero #navbar ul{display:flex;position:relative;top:2px;left:-4px;list-style:none}#hero #navbar ul li a{font-family:Open Sans,sans-serif;text-decoration:none;text-transform:uppercase;margin:0 10px;font-weight:300;transition:all .2s ease-in-out;font-size:.8rem;color:#000}
+>>>>>>> 82191c5f01d356332562b080a799a611e79808c4
 /*# sourceMappingURL=style.css.map */
